@@ -1,0 +1,231 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tract-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tract-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.tract-text {
+  background-color: blue;
+  color: white;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .tract-area {
+    height: 50vh;
+    width: 100vw;
+    background-color: red;
+  }
+
+  .comments-area {
+    height: 50vh;
+    width: 100vw;
+    background-color: green;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .tract-area {
+    height: 100vh;
+    width: 50vw;
+    float: left;
+    background-color: purple;
+  }
+
+  .comments-area {
+    height: 100vh;
+    width: 50vw;
+    float: left;
+    background-color: orange;
+  }
+}
+
+@media (min-aspect-ratio: 2/1) {
+  .comments-text-area {
+    padding: min(4vmin, 1vmax);
+  }
+
+  h1 {
+    font-size: min(8vmin, 2vmax);
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: min(7vmin, 1.75vmax);
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: min(6vmin, 1.5vmax);
+    font-weight: 700;
+  }
+
+  p {
+    font-size: min(5vmin, 1.25vmax);
+    font-weight: 100;
+  }
+
+  .tract-title {
+    max-height: 15vmin;
+    height: 3.75vmax;
+    max-width: 100vmin;
+    width: 25vmax;
+    background-color: white;
+  }
+
+  .tract-content {
+    max-height: 80vmin;
+    height: 20vmax;
+    max-width: 160vmin;
+    width: 40vmax;
+    background-color: #6e0228;
+  }
+
+  .carousel {
+    max-height: 80vmin;
+    height: 20vmax;
+    max-width: 180vmin;
+    width: 45vmax;
+  }
+
+  .carousel-left-arrow {
+    max-height: 40vmin;
+    height: 10vmax;
+    max-width: 5vmin;
+    width: 2.5vmax;
+    background-color: pink;
+    float: left;
+  }
+
+  .carousel-right-arrow {
+    max-height: 40vmin;
+    height: 10vmax;
+    max-width: 5vmin;
+    width: 2.5vmax;
+    background-color: turquoise;
+    float: left;
+  }
+
+  .tract-text {
+    max-height: 76vmin;
+    height: 19vmax;
+    max-width: 76vmin;
+    width: 19vmax;
+    background-color: blue;
+    float: left;
+    padding: min(2vmin, 0.5vmax);
+  }
+
+  .tract-image {
+    max-height: 80vmin;
+    height: 20vmax;
+    max-width: 80vmin;
+    width: 20vmax;
+    background-color: yellow;
+    float: left;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;700&display=swap');
+
+/*
+
+@media (max-aspect-ratio: 2/1) and (min-aspect-ratio: 1/1) {
+}
+
+@media (max-aspect-ratio: 1/1) and (min-aspect-ratio: 1/2) {
+}
+
+@media (max-aspect-ratio: 1/2) {
+}
+
+
+
+#tile-puzzle-canvas {
+  max-height: 45vmax;
+  height: 90vmin;
+  max-width: 45vmax;
+  width: 90vmin;
+  background-color: #6e0228;
+}
+
+* {
+  font-family: 'Arial';
+  color: #f7f890;
+  background-color: #6e0228;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .tile-puzzle-area {
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+  }
+
+  .puzzle-caption-area {
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .tile-puzzle-area {
+    height: 100vh;
+    width: 50vw;
+    float: left;
+    background-color: black;
+  }
+
+  .puzzle-caption-area {
+    height: 100vh;
+    width: 50vw;
+    float: left;
+    background-color: black;
+  }
+}
+
+h1 {
+  font: '25px Arial';
+}
+
+.tlink a:link,
+a:visited {
+  background-color: #3344dd;
+  color: #f7f890;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #bb1122;
+}
+
+
+Suggested colours https://webaim.org/blog/wcag-2-0-and-link-colors/
+Normal: #3344dd
+Hover/Focus/Active: #bb1122;
+Visited: #884488
+*/

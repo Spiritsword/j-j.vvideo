@@ -1,0 +1,26 @@
+.tlink {
+  font: '25px Arial';
+  align: 'center';
+}
+
+.tlink a:link,
+a:visited {
+  background-color: #3344dd;
+  color: #f7f890;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #bb1122;
+}
+
+/*
+Suggested colours https://webaim.org/blog/wcag-2-0-and-link-colors/
+Normal: #3344dd
+Hover/Focus/Active: #bb1122;
+Visited: #884488
+*/
