@@ -111,7 +111,7 @@ body {
     max-height: 40vmin;
     height: 10vmax;
     max-width: 5vmin;
-    width: 2.5vmax;
+    width: 1.25vmax;
     background-color: pink;
     float: left;
   }
@@ -120,7 +120,7 @@ body {
     max-height: 40vmin;
     height: 10vmax;
     max-width: 5vmin;
-    width: 2.5vmax;
+    width: 1.25vmax;
     background-color: turquoise;
     float: left;
   }
@@ -140,6 +140,80 @@ body {
     height: 20vmax;
     max-width: 80vmin;
     width: 20vmax;
+    background-color: yellow;
+    float: left;
+  }
+}
+
+@media (max-aspect-ratio: 2/1) and (min-aspect-ratio: 1/1) {
+  .comments-text-area {
+    padding: 2vmin;
+  }
+
+  h1 {
+    font-size: 4vmin;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3.5vmin;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 3vmin;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 2.5vmin;
+    font-weight: 100;
+  }
+
+  .tract-title {
+    height: 7vmin;
+    width: 50vmin;
+    background-color: white;
+  }
+
+  .tract-content {
+    height: 80vmin;
+    width: 40vmin;
+    background-color: #6e0228;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel {
+    height: 80vmin;
+    width: 45vmin;
+  }
+
+  .carousel-left-arrow {
+    height: 40vmin;
+    width: 2.5vmin;
+    background-color: pink;
+    float: left;
+  }
+
+  .carousel-right-arrow {
+    height: 40vmin;
+    width: 2.5vmin;
+    background-color: turquoise;
+    float: left;
+  }
+
+  .tract-text {
+    height: 38vmin;
+    width: 38vmin;
+    background-color: blue;
+    float: left;
+    padding: 1vmin;
+  }
+
+  .tract-image {
+    height: 40vmin;
+    width: 40vmin;
     background-color: yellow;
     float: left;
   }
