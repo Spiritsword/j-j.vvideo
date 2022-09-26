@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  color: rgb(247, 248, 144);
+  background-color: black;
+  padding: 3vmin;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.sup {
+  vertical-align: super;
+  font-size: 0.7em;
+  color: rgb(247, 248, 144);
+}
