@@ -257,9 +257,9 @@ function endLoop() {
       setTimeout(() => {
         console.log('addedLink');
         addLinkText();
-      }, 0);
-    }, 0);
-  }, 0);
+      }, 1000);
+    }, 2000);
+  }, 3000);
   console.log('Finished setTimeout');
 }
 
