@@ -254,9 +254,9 @@ function endLoop() {
     setTimeout(() => {
       console.log('addedFinal');
       addFinalText();
-//      setTimeout(() => {
-//        console.log('addedLink');
-//        addLinkText();
+      setTimeout(() => {
+        console.log('addedLink');
+        addLinkText();
       }, 0);
     }, 0);
   }, 0);
