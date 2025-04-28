@@ -252,7 +252,7 @@ function fadeInJesusAndLinks(opacity) {
     drawJesus(opacity);
     setTimeout(function () {
       fadeInJesusAndLinks(opacity + 0.01);
-    }, 50);
+    }, 20);
   }
 }
 
@@ -272,7 +272,7 @@ function fadeInTextObject(object, opacity, callback) {
   if (opacity >= 1) callback();
   else {
     object.style.opacity = opacity;
-    setTimeout(() => fadeInTextObject(object, opacity + 0.01, callback), 40);
+    setTimeout(() => fadeInTextObject(object, opacity + 0.01, callback), 20);
   }
 }
 
@@ -280,7 +280,7 @@ function fadeOutTextObject(object, opacity, callback) {
   if (opacity <= 0) callback();
   else {
     object.style.opacity = opacity;
-    setTimeout(() => fadeOutTextObject(object, opacity - 0.01, callback), 40);
+    setTimeout(() => fadeOutTextObject(object, opacity - 0.01, callback), 20);
   }
 }
 
